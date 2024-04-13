@@ -12,7 +12,7 @@ function Hero() {
             arcane legal procedures. The focus is on getting results for our
             clients, not on how our foyer looks.
           </p>
-          <div className="md:flex md:">
+          <div className="md:flex pb-28 pt-10 space-x-3">
             <a
               className="border border-cyan-600 px-8 py-3 font-medium hover:bg-white hover:text-black"
               href="#"
@@ -28,20 +28,30 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="relative">
-        <div className="absolute left-0 right-0 -top-10 -md:top-20 w-11/12 mx-auto  rounded-3xl md:p-8 md:w-3/5">
+      <div className="relative shadow-2xl">
+        <div className="absolute left-0 right-0 -top-20  w-11/12 mx-auto  rounded-3xl  md:w-3/5 ">
           <div className=" bg-gray-100 rounded-t-3xl flex flex-col items-center gap-6 py-3 font-medium md:flex-row justify-around md:p-10">
-            <h2>MELBOURNE</h2>
-            <h2>SYDNEY</h2>
-            <h2>BRISBANE</h2>
-            <h2>PERTH</h2>
-            <h2>GOLD COAST</h2>
+            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+              MELBOURNE
+            </h2>
+            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+              SYDNEY
+            </h2>
+            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+              BRISBANE
+            </h2>
+            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+              PERTH
+            </h2>
+            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+              GOLD COAST
+            </h2>
           </div>
-          <div className="md:grid grid-cols-3 gap-4">
+          <div className="md:grid grid-cols-3 gap-4 md:px-4">
             <div>
               <img src="https://slflawyers.com.au/wp-content/uploads/2020/12/Logo.jpg" />
             </div>
-            <div className="text-justify">
+            <div className="text-justify  md:py-8">
               <p className="mb-4">
                 SLF Lawyers is a multidisciplinary team of respected legal
                 professionals with offices in Melbourne, Sydney, Brisbane, Perth
@@ -59,7 +69,7 @@ function Hero() {
                 business, and major multinational companies alike.
               </p>
             </div>
-            <div className="text-justify">
+            <div className="text-justify md:py-8">
               <p className="mb-4">
                 Our experienced team of lawyers in Australia combine a depth of
                 skill covering Commercial, Property, Insurance, Employment and
