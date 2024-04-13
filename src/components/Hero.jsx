@@ -28,69 +28,69 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="relative shadow-2xl">
-        <div className="absolute left-0 right-0 -top-20  w-11/12 mx-auto  rounded-3xl  md:w-3/5 ">
-          <div className=" bg-gray-100 rounded-t-3xl flex flex-col items-center gap-6 py-3 font-medium md:flex-row justify-around md:p-10">
-            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
-              MELBOURNE
-            </h2>
-            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
-              SYDNEY
-            </h2>
-            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
-              BRISBANE
-            </h2>
-            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
-              PERTH
-            </h2>
-            <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
-              GOLD COAST
-            </h2>
+      {/* <div className=" z-50 border border-red-600"> */}
+      <div className="-mt-20 shadow-2xl w-11/12 mx-auto  rounded-3xl  md:w-3/5 ">
+        <div className=" bg-gray-100 rounded-t-3xl flex flex-col items-center gap-6 py-3 font-medium md:flex-row justify-around md:p-10">
+          <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+            MELBOURNE
+          </h2>
+          <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+            SYDNEY
+          </h2>
+          <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+            BRISBANE
+          </h2>
+          <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+            PERTH
+          </h2>
+          <h2 className="underline underline-offset-8 decoration-2 decoration-orange-500">
+            GOLD COAST
+          </h2>
+        </div>
+        <div className="md:grid grid-cols-3 gap-4 p-4">
+          <div>
+            <img src="https://slflawyers.com.au/wp-content/uploads/2020/12/Logo.jpg" />
           </div>
-          <div className="md:grid grid-cols-3 gap-4 md:px-4">
-            <div>
-              <img src="https://slflawyers.com.au/wp-content/uploads/2020/12/Logo.jpg" />
-            </div>
-            <div className="text-justify  md:py-8">
-              <p className="mb-4">
-                SLF Lawyers is a multidisciplinary team of respected legal
-                professionals with offices in Melbourne, Sydney, Brisbane, Perth
-                and the Gold Coast.
-              </p>
-              <p className="mb-4">
-                Combining years of legal experience with our commercially minded
-                approach to matters, we achieve favourable outcomes for all our
-                clients, no matter how complex the situation.
-              </p>
-              <p className="mb-4">
-                With core values of attention to detail, thorough preparation,
-                intelligent strategy and efficient service delivery, we provide
-                comprehensive legal service to individuals, small and large
-                business, and major multinational companies alike.
-              </p>
-            </div>
-            <div className="text-justify md:py-8">
-              <p className="mb-4">
-                Our experienced team of lawyers in Australia combine a depth of
-                skill covering Commercial, Property, Insurance, Employment and
-                Finance matters with the ability to listen, research and
-                understand the complete picture
-              </p>
-              <p className="mb-4">
-                Our client-centred approach results in clear and concise advice,
-                with alternative dispute resolution our specialty. Where
-                litigation is unavoidable, we pursue beneficial outcomes with
-                rigour and unwavering focus.
-              </p>
-              <p className="mb-4">
-                To learn more about our Australian law firm’s many areas of
-                practice, visit our Practice Areas page. For confidential advice
-                on your legal issue, please Contact Us.
-              </p>
-            </div>
+          <div className="text-justify  md:py-8">
+            <p className="mb-4">
+              SLF Lawyers is a multidisciplinary team of respected legal
+              professionals with offices in Melbourne, Sydney, Brisbane, Perth
+              and the Gold Coast.
+            </p>
+            <p className="mb-4">
+              Combining years of legal experience with our commercially minded
+              approach to matters, we achieve favourable outcomes for all our
+              clients, no matter how complex the situation.
+            </p>
+            <p className="mb-4">
+              With core values of attention to detail, thorough preparation,
+              intelligent strategy and efficient service delivery, we provide
+              comprehensive legal service to individuals, small and large
+              business, and major multinational companies alike.
+            </p>
+          </div>
+          <div className="text-justify md:py-8">
+            <p className="mb-4">
+              Our experienced team of lawyers in Australia combine a depth of
+              skill covering Commercial, Property, Insurance, Employment and
+              Finance matters with the ability to listen, research and
+              understand the complete picture
+            </p>
+            <p className="mb-4">
+              Our client-centred approach results in clear and concise advice,
+              with alternative dispute resolution our specialty. Where
+              litigation is unavoidable, we pursue beneficial outcomes with
+              rigour and unwavering focus.
+            </p>
+            <p className="mb-4">
+              To learn more about our Australian law firm’s many areas of
+              practice, visit our Practice Areas page. For confidential advice
+              on your legal issue, please Contact Us.
+            </p>
           </div>
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 }
