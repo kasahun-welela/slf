@@ -12,27 +12,27 @@ function PracticeCard() {
           Contact Us.
         </a>
       </p>
-      <div className="md:grid grid-cols-4 md:w-3/5 mx-auto">
+      <div className="md:grid grid-cols-4 md:w-3/5 mx-auto gap-3">
         <div className="">
           <img
-            className="-mb-10 mx-auto block"
+            className="-mb-10 mx-auto block w-32"
             src="https://slflawyers.com.au/wp-content/uploads/2021/01/Artboard-11009.png"
             alt="practice area image"
           />
           <div className="px-8 py-10 shadow-xl bg-white rounded-2xl">
-            <p className="text-center text-xl">Building and Construction</p>
+            <p className="text-center text-sm">Building and Construction</p>
           </div>
         </div>
         {/* card two */}
 
         <div className="">
           <img
-            className="-mb-10 mx-auto block"
+            className="-mb-10 mx-auto block w-32"
             src="https://slflawyers.com.au/wp-content/uploads/2021/01/Artboard-11009-160x160.png"
             alt="practice area image"
           />
           <div className="px-8 py-10 shadow-xl bg-white rounded-2xl">
-            <p className="text-center text-xl">
+            <p className="text-center text-sm">
               Alternative Dispute Resolution
             </p>
           </div>
@@ -41,12 +41,12 @@ function PracticeCard() {
 
         <div className="">
           <img
-            className="-mb-10 mx-auto block"
+            className="-mb-10 mx-auto block w-32"
             src="https://slflawyers.com.au/wp-content/uploads/2021/01/Artboard-11012.png"
             alt="practice area image"
           />
           <div className="px-8 py-10 shadow-xl bg-white rounded-2xl">
-            <p className="text-center text-xl">Commercial Litigation</p>
+            <p className="text-center text-sm">Commercial Litigation</p>
           </div>
         </div>
 
@@ -54,12 +54,12 @@ function PracticeCard() {
 
         <div className="">
           <img
-            className="-mb-10 mx-auto block"
+            className="-mb-10 mx-auto block w-32"
             src="https://slflawyers.com.au/wp-content/uploads/2021/01/Artboard-11011-160x160.png"
             alt="practice area image"
           />
           <div className="px-8 py-10 shadow-xl bg-white rounded-2xl">
-            <p className="text-center text-xl">Commercial Law</p>
+            <p className="text-center text-sm">Commercial Law</p>
           </div>
         </div>
       </div>
