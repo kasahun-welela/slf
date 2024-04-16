@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import PracticeCard from "./components/PracticeCard";
 import NewsCard from "./components/NewsCard";
 import Teams from "./components/Teams";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <PracticeCard />
       <NewsCard />
       <Teams />
+      <ContactUs />
     </>
   );
 }
