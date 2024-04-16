@@ -5,7 +5,7 @@ function ContactUs() {
         Do you need legal advice?{" "}
       </h1>
       <div class="flex justify-center">
-        <hr className="w-24 h-0.5 mt-3 mb-8 bg-yellow-600 border-0 rounded" />
+        <hr className="w-24 h-0.5 mt-5 mb-8 bg-yellow-600 border-0 rounded" />
       </div>{" "}
       <p className="my-3 text-center">
         We understand that you may need help, but aren’t yet ready to enter into
