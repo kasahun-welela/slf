@@ -1,3 +1,8 @@
+import { GrLocation } from "react-icons/gr";
+import { FiPhoneCall } from "react-icons/fi";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaRegClock } from "react-icons/fa";
+
 function ContactUs() {
   return (
     <div className="mx-6 ">
@@ -149,11 +154,43 @@ function ContactUs() {
       <h1 className="font-semibold text-center text-4xl mt-14 ">
         Contact Us Today
       </h1>
-      <p>
+      <p className="text-center mt-2">
         Our team of compassionate lawyers and certified technicians provide
         unparalled expertise to assist you with whatever problem or concern you
         may have.{" "}
       </p>
+      <div className="my-6">
+        <div className="flex items-center gap-3 my-3">
+          <GrLocation className="text-2xl text-cyan-600" />
+          <div>
+            <p className="text-xl font-semibold">Location</p>
+            <p>Addis Ababa lideta infront of xxx</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-3 my-3">
+          <FiPhoneCall className="text-2xl text-cyan-600" />
+          <div>
+            <p className="text-xl font-semibold">Phone Number</p>
+            <p>+251911111111</p>
+            <p>+251911111111</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-3 my-3">
+          <MdOutlineEmail className="text-2xl text-cyan-600" />
+          <div>
+            <p className="text-xl font-semibold">Email</p>
+            <p>support@gmail.com</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-3 my-3">
+          <FaRegClock className="text-2xl text-cyan-600" />
+          <div>
+            <p className="text-xl font-semibold">Timing</p>
+            <p>Mon - Fri 2:00- 11:00 LT</p>
+            <p>Saturday 2:00- 11:00 LT</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
